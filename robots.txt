@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.json$
+
+Sitemap: https://nona-store.com/sitemap.xml
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bingbot
+User-agent: bingbot
+Allow: /
+Crawl-delay: 2
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Crawl-delay: 3
+
+# Search Engine Optimization
+User-agent: *
+Host: https://nona-store.com
